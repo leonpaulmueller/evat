@@ -1,2 +1,2 @@
-# evat
-Electric Vehicle Auralization Toolbox (EVAT)
+# Electric Vehicle Auralization Toolbox (EVAT)
+
