@@ -19,6 +19,7 @@ This repository contains Matlab code and data for the auralization of electric v
     - `sh2p.m` - Get pressure from SH coefficients at evaluation coordinates
     - `ss2ds.m` - Converts single-sided to double-sided spectrum
     - `truncateSH.m` - Truncates SH coefficients to a lower order
+    - `plotSHPolar.m`- Polar plot of SH directivities
 - **data**
   - directivity
     - bem - BEM results for the three different vehicles (pressure in frequency domain on 131st order Lebedev sphere)
