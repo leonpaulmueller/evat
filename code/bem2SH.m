@@ -15,7 +15,7 @@
 % Author: Leon Müller
 % Email: leon.mueller@chalmers.se
 % Website: www.ta.chalmers.se
-% January 2024; Last revision: 02/02/2024
+% January 2024; Last revision: 07/02/2024
 
 %------------- BEGIN CODE --------------
 clear; close all; clc
@@ -96,6 +96,13 @@ if doErrorPlots
     % compared to BEM pressure
     pSH = sh2p(X,f,measCoords,r0);
     plotErrors(p, pSH, f);
+end
+
+%% Polar Directivity Plot
+doPolarPlot = true;
+if doPolarPlot
+    disp('Working on polar plot')
+    plotSHPolar(X, f, r0);
 end
 
 %% Save Results
