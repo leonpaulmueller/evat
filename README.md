@@ -24,6 +24,7 @@ This repository contains Matlab code and data for the auralization of electric v
   - directivity
     - bem - BEM results for the three different vehicles (pressure in frequency domain on 131st order Lebedev sphere)
     - sh - SH Coefficients for AVAS (SH order N=64) and tire/road noise radiation (N=16)
+    - Both BEM and SH directivities were calculated for a Lebedev grid centered on the center of the vehicle and for a Lebedev grid centered on the AVAS speaker (_speakerCentered.mat). The directivities centered on the AVAS speaker have the disadvantage of a larger minimum auralization distance (5 m instead of 3 m) but require a significantly lower SH order (around 24 instead of 64).
   - synthesis
     - coeffs - AVAS and tire/road noise synthesis coefficients, obtained by analyzing reference recordings
     - settings - Pre-defined analysis settings for the three evaluated vehicles
