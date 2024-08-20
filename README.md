@@ -1,7 +1,7 @@
 # Electric Vehicle Auralization Toolbox (EVAT)
 
 This repository contains Matlab code and data for the auralization of electric vehicle passages accompanying the paper:
-> Leon Müller and Wolfgang Kropp, _Auralization of Electric Vehicles for the Perceptual Evaluation of Acoustic Vehicle Alerting Systems_, submitted for review and publication to Acta Acustica on 02. February 2024
+> Müller L. & Kropp W. 2024. Auralization of electric vehicles for the perceptual evaluation of acoustic vehicle alerting systems. Acta Acustica, 8, 27. https://doi.org/10.1051/aacus/2024025
 
 ## Contents
 - **code**
